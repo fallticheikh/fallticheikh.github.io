@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="TP3_formulaire.css">
+</head>
+<body>
+  <h2>Formulaire d inscription</h2>
+  <form action="">
+    <div>
+      <label for="nom">Nom :*</label><br>
+      <input type="text" required><br>
+    </div>
+    <div>
+      <label for="prenom">prenom :*</label><br>
+      <input type="text" required><br>
+    </div>
+    <div>
+        <label for="date">Date de naissance :*</label><br>
+        <input type="date" required><br>
+    </div>
+    <div>
+        <label for="lieu">Lieu de naissance :*</label><br>
+        <input type="text" required><br>
+    </div>
+    <div>
+        <label for="sexe">Sexe:*</label><br>
+        <input type="radio" name="sexe" required>M
+        <input type="radio" name="sexe" required>F
+    </div>
+    <div>
+        <label for="pays">pays :*</label>
+        <select name="pays" id="pays">
+        <option value=""></option>
+        <option value="">Bénin</option>
+        <option value="">Burkina Faso</option>
+        <option value="">Comores</option>
+        <option value="">Congo Brazzaville</option>
+        <option value="">Cote D ivoire</option>
+        <option value="">Gambie</option>
+        <option value="">Guinnée Bissau</option>
+        <option value="">Guinnée connakrie</option>
+        <option value="">Lybie</option>
+        <option value="">Malie</option>
+        <option value="">Maroc</option>
+        <option value="">Mauritanie</option>
+        <option value="">Niger</option>
+        <option value="">Nigeria</option>
+        <option value="">RDC</option>
+        <option value="">Sénégal</option>
+        <option value="">Tchad</option>
+        <option value="">togo</option>
+        </select>
+    </div>    
+    <div>
+        <label for="adresse">Adresse :*</label><br>
+        <textarea name="adresse" id="adressse" cols="30" rows="10" placeholder="saisissez votre adresse :Num de parcelle: ,de quartier: "></textarea>
+    </div>
+    <div>
+        <label for="tel">Téléphone portable :*</label><br>
+        <input type="text" pattern="[0-9]{9}">
+    </div>
+    <div>
+      <label for="email">Email :*</label><br>  
+      <input type="email" required>
+    </div>
+    <div>
+      <label for="confirmer">Confirmer votre Email :*</label><br>
+       <input type="email" required>
+    </div>
+    <div>
+       <label for="filiére">Filiére demandé</label><br>
+       <input type="checkbox" name="filiére">Télécoms et Informatique <br>
+       <input type="checkbox" name="filiére">Management Numérique <br>
+       <input type="checkbox" name="filiére">Cours Preparatoire Conjoints <br>
+    </div>
+    <div>
+       <label for="password">Donner un mot de passe :*</label> <br>
+       <input type="password" required>
+    </div>
+    <div>
+        <label for="password">Confirmer votre mot de passe :*</label> <br>
+        <input type="password"required>
+    </div>
+    <div>
+        <legend>*Champ obligatoire*</legend><br>
+        
+    </div>
+    <div>
+        <input type="reset" value="Rétablir">
+        <input type="text" value="Envoyer">
+    </div>
+  </form>
+</body>
+</html>

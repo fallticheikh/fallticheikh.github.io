@@ -1,0 +1,50 @@
+h2{ 
+    background-color: #05f;
+    text-align: center;
+}
+form{
+    background-color:#FAFAFA;
+    width: 600px;
+    padding: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+input,textarea,select,option{
+    background-color:#FFF3F3 ;
+}
+input,textarea,select{
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    width: 200px;
+}
+input[type="submit"],input[type="reset"]{
+    width: 100px;
+    margin-left: 5px;
+    box-shadow: 1px #d83f3d ;
+    cursor: pointer;
+}
+:required{
+    border-color:#F80;
+}
+:invalid{
+    background-color:beige;
+    border-color:red;
+    border-width: 3px;
+}
+:valid{
+    background-color: cornsilk;
+    border-color:#5A5;
+}
+input[type="radio"],input[type="checkbox"]{
+    width: auto;
+}
+legend{
+    color: red;
+}
